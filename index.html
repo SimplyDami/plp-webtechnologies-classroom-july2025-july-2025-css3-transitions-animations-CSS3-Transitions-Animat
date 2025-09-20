@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 7 Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background animation (Part 1: CSS animations only) -->
+  <div class="background">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>✨ Interactive CSS & JavaScript Demo ✨</h1>
+    <p>Bringing web pages to life with animations and logic!</p>
+    <!-- CSS transition hover effect (Part 1) -->
+    <button class="fancy-btn">Hover Me</button>
+  </header>
+
+  <!-- Animation Playground -->
+  <section class="playground">
+    <h2>Animation Playground</h2>
+    <!-- Box that will be animated using JS + CSS (Part 3) -->
+    <div id="animate-box"></div>
+    <div class="controls">
+      <!-- Buttons for interaction -->
+      <button id="animate-btn">🎬 Animate Box</button>
+      <button id="open-modal">📦 Open Modal</button>
+      <button id="color-btn">🎨 Change Color</button>
+      <button id="reset-btn">🔄 Reset Box</button>
+      <button id="surprise-btn">✨ Surprise Me</button>
+    </div>
+  </section>
+
+  <!-- Modal (hidden until triggered with JS) -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal">&times;</span>
+      <h3>Modal Magic ✨</h3>
+      <p>This modal slides and fades in using CSS transitions triggered by JavaScript!</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with 💙 using <strong>HTML, CSS & JavaScript</strong></p>
+  </footer>
+
+  <!-- Link JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
